@@ -47,11 +47,14 @@ Delete: se non vi serve più, cancellatelo. Attenzione: perderete le modifiche n
 Push su GitHub: per rendere permanenti le modifiche, fate sempre git commit e git push.
 
 ## 📂 Cosa rimane / cosa si perde
-Tipo di modifica	Dopo Stop	Dopo Delete	Dopo Push
-File creati/modificati	✅	❌	✅
-Pacchetti installati manualmente	✅	❌	❌ (serve aggiornarli nel devcontainer)
-Commit locali non pushati	✅	❌	✅
-Configurazioni nel .devcontainer.json	✅ (solo in quel Codespace)	❌	✅ (se pushate nel repo)
+
+| Tipo di modifica                  | Dopo Stop | Dopo Delete | Dopo Push |
+|-----------------------------------|-----------|-------------|-----------|
+| File creati/modificati            | ✅         | ❌           | ✅         |
+| Pacchetti installati manualmente  | ✅         | ❌           | ❌ (serve aggiornarli nel devcontainer) |
+| Commit locali non pushati         | ✅         | ❌           | ✅         |
+| Configurazioni nel `.devcontainer.json` | ✅ (solo in quel Codespace) | ❌ | ✅ (se pushate nel repo) |
+
 
 
 ## 🎯 Best practice per l’hackathon
@@ -63,4 +66,6 @@ Fate sempre git push per salvare il vostro lavoro.
 
 Non serve fare login su Microsoft Open Source: lavorate solo sul fork di Mauro.
 
-👉 Con questo setup, ognuno di voi avrà un ambiente identico, pronto in pochi secondi, e potrà lavorare in autonomia senza installazioni lo
+-----------
+
+# 👉 Con questo setup, ognuno di voi avrà un ambiente identico, pronto in pochi secondi, e potrà lavorare in autonomia senza installazioni locali.

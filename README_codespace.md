@@ -32,11 +32,12 @@ Attendere pochi secondi: si aprirà VS Code nel browser con l’ambiente già co
 
 ## 🔍 Verifica rapida dell’ambiente
 Dopo l’apertura, provate questi comandi nel terminale:
-
+```
 bash
 az --version        # Controlla che Azure CLI sia installato
 python --version    # Controlla la versione di Python
 pip list            # Mostra i pacchetti installati
+```
 Se funzionano, significa che il prebuild è stato usato correttamente.
 
 ## 🛑 Gestione delle risorse

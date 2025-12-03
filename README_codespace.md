@@ -18,22 +18,16 @@ Quando aprite un Codespace su main, GitHub userà automaticamente il prebuild �
 Non vedrete un messaggio esplicito “stai usando il prebuild”: l’unico segnale è la velocità di avvio.
 
 ## 📝 Istruzioni passo‑passo
-Accedete a GitHub con il vostro account personale.
-
-Aprite il repo: https://github.com/maurominella/azure-trust-agents.
-
-Cliccate sul pulsante verde Code.
-
-Selezionate la tab Codespaces.
-
-Cliccate su Create codespace on main.
-
-Attendere pochi secondi: si aprirà VS Code nel browser con l’ambiente già configurato.
+- Accedete a GitHub con il vostro account personale.
+- Aprite il repo: https://github.com/maurominella/azure-trust-agents.
+- Cliccate sul pulsante verde Code.
+- Selezionate la tab Codespaces.
+- Cliccate su Create codespace on main.
+- Attendere pochi secondi: si aprirà VS Code nel browser con l’ambiente già configurato.
 
 ## 🔍 Verifica rapida dell’ambiente
 Dopo l’apertura, provate questi comandi nel terminale:
-```
-bash
+```bash
 az --version        # Controlla che Azure CLI sia installato
 python --version    # Controlla la versione di Python
 pip list            # Mostra i pacchetti installati
